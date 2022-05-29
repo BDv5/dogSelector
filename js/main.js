@@ -16,7 +16,7 @@ async function getReq() {
 	document.querySelector('h2').innerText = data.dog
 	document.getElementById('photo').style.background = `url(${data.pic})`
 	document.getElementById('photo').style.backgroundRepeat = "no-repeat"
-	document.getElementById('photo').style.backgroundPosition = "center"
+	document.getElementById('photo').style.backgroundPosition = "bottom"
 
 }
 
