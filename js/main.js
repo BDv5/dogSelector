@@ -13,7 +13,8 @@ async function getReq() {
 
   	console.log(data);
 
-	document.querySelector('h2').innerText = data
+	document.querySelector('h2').innerText = data.dog
+	document.getElementById('photo').style.background = `url(${data.pic})`
 
 }
 
