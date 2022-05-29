@@ -17,8 +17,6 @@ async function getReq() {
 
 }
 
-
-
 // Returns boolean value pulled from DOM
 function retrieveValues(radioName) {
 	if (document.querySelector(`#${radioName}Y`).checked) {
@@ -29,8 +27,6 @@ function retrieveValues(radioName) {
 		return 'err'
 	}
 }
-
-
 
 //                       isActive? children?  big?
 //Greyhound               yes      yes        yes
