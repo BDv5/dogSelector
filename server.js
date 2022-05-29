@@ -34,8 +34,7 @@ const server = http.createServer((req, res) => {
     const physicallyActive = extractBoolean(params['physicallyActive'])
     const bigDogs = extractBoolean(params['bigDogs'])
     let objToJson;
-    let imgToJson;
-
+    
     if (children && physicallyActive && bigDogs) {
       objToJson = {
         dog: 'Greyhound',
