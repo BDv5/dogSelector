@@ -40,17 +40,17 @@ const server = http.createServer((req, res) => {
     } else if (children && physicallyActive && !bigDogs) {
       objToJson = 'Shih Tzu'
     } else if (children && !physicallyActive && !bigDogs) {
-      objToJson = 'Chihuahua'
+      objToJson = 'Maltese'
     } else if (children && !physicallyActive && bigDogs) {
-      objToJson = 'Pitbull'
+      objToJson = 'Saint Bernard'
     } else if (!children && !physicallyActive && !bigDogs) {
       objToJson = 'Yorkshire Terrior'
     } else if (!children && !physicallyActive && bigDogs) {
       objToJson = 'Rottweiler'
     } else if (!children && physicallyActive && bigDogs) {
-      objToJson = 'Saint Bernard'
+      objToJson = 'Pitbull'
     } else if (!children && physicallyActive && !bigDogs) {
-      objToJson = 'Maltese'
+      objToJson = 'Chihuahua'
     } else {
       objToJson = 'you\'re too picky'
     }
