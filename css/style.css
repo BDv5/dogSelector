@@ -76,3 +76,33 @@ img {
   width: 70%;
   display: none;
 }
+
+/********************
+Media queries
+********************/
+
+@media all and (max-width: 809px) {
+  
+  .mainDiv {
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .innerDivs {
+    width: 100%;
+  }  
+  .leftDiv {
+    border-radius: 10px 10px 0 0;
+    padding: 0 0 0 00px;
+  }
+  .rightDiv {
+    height: 500px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  h1 {
+    font-size: 1em;
+    line-height: 1;
+  }
+}
