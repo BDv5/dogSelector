@@ -94,7 +94,7 @@ Media queries
   }  
   .leftDiv {
     border-radius: 10px 10px 0 0;
-    padding: 0 0 0 00px;
+    padding: 0 0 0 0px;
   }
   .rightDiv {
     height: 500px;
