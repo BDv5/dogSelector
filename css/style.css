@@ -6,6 +6,17 @@ h1{
   text-align: center;
 }
 
+h2 {
+  display: none;
+  color: rgb(228, 228, 228);
+  background: #3a9fe3;
+  border-top: 2px solid rgb(228, 228, 228);
+  border-bottom: 2px solid rgb(228, 228, 228);
+  padding: 20px 50px;
+  width: 100%;
+
+}
+
 body {
   background-size: cover;
   display: flex;
@@ -51,9 +62,6 @@ input, label {
   margin: 15px 0;
 }
 
-label {
-  padding: 0 15px 0 5px;;
-}
 
 p {
   display: block;
@@ -72,9 +80,16 @@ p {
   display: block;
 }
 
-img {
-  width: 70%;
-  display: none;
+#photo {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.radioButton{
+  width: 15px;
+  height: 15px;
+  margin: 15px 10px 15px 20px;
 }
 
 /********************
@@ -102,7 +117,7 @@ Media queries
   }
 
   h1 {
-    font-size: 1em;
+    font-size: 1.4em;
     line-height: 1;
   }
 }
