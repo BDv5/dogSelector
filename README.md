@@ -2,7 +2,7 @@
 
 Our web application helps dog lovers choose a dog breed based on compatibility with children, physical activity and size.
 
-Link to project: https://dogpicker-groupproject.herokuapp.com
+Link to project: https://dogselectorquiz.herokuapp.com/
 
 <img src="https://user-images.githubusercontent.com/99383283/171100169-f334724f-1545-4bb7-b359-52401ff26c3c.jpg" alt="image of dog picker app">
 
