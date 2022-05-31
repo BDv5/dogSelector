@@ -13,10 +13,11 @@ async function getReq() {
 
   	console.log(data);
 
+	document.querySelector('h2').style.display = "block"  
 	document.querySelector('h2').innerText = data.dog
 	document.getElementById('photo').style.background = `url(${data.pic})`
 	document.getElementById('photo').style.backgroundRepeat = "no-repeat"
-	document.getElementById('photo').style.backgroundPosition = "bottom"
+	document.getElementById('photo').style.backgroundSize = "cover"
 
 }
 
